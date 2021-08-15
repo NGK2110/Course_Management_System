@@ -1,0 +1,122 @@
+html{box-sizing:border-box;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+   overflow-x:hidden;
+ }
+body{
+  margin:0px auto;
+}
+footer,header,nav,section,article{
+  display:block;
+}
+.nav_bar{
+  width:100%;
+}
+.nav_bar.nav_item{
+  padding:8px 16px;
+  float:left;
+  background-color:inherit;
+  color:inherit;
+  display:block;
+  color:#fff!important;
+  background-color:#000!important;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+    background-color:black;
+}
+li{
+  float: left;
+}
+li img{
+  display: block;
+  padding: 14px 16px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgba(50,101,201,0.8);
+}
+html,body{
+  font-family:"Times New Roman",Times,serif;
+  font-size:16px;
+  line-height:1.5;
+}
+
+h1{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-size: 40px;
+}
+
+h2{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-size: 28px;
+}
+img{
+  border-style:none;
+}
+.s1,.s2{
+  align-self: center;
+  padding:0.01em 16px;
+  content:"";
+  display:table;
+  clear:both;
+}
+.p1{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(50,101,201);
+}
+.p2{
+  font-family:"Segoe UI",Arial,sans-serif;
+  text-align:justify!important;
+}
+.s2{
+  background-color:rgba(50,101,201,0.2);
+  display: flex;
+}
+.a1,.a3{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight: bold;
+  float:left;
+  width:100%;
+  font-size: 18px
+  padding:0 8px;
+}
+.a2{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-size: 16px
+  color: lightblue;
+}
+.a4{
+  color: white;
+  font-size: 18px;
+}
+.a9{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-size: 16px;
+  color:rgba(50,101,201,0.9);
+}
+footer{
+  margin: 0px auto;
+  font-family:"Segoe UI",Arial,sans-serif;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+}
