@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/homecss.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <center>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#section1" class="nav_item">Sign up</a>
+  <a href="login.php" class="nav_item">Login</a>
+  <a href="#footer1" class="nav_item">Contact</a>
+</div>
+<section>
+  <img class="mySlides" src="images/se1.jpeg"
+  style="width:100%">
+  <img class="mySlides" src="images/se2.jpeg"
+  style="width:100%">
+  <img class="mySlides" src="images/se3.jpeg"
+  style="width:100%">
+</section>
+<section class="s1" id="section1" style="max-width:600px">
+  <h1 class="h_1"><center>We Design:A Recommender System</center></h1>
+    <p class="p1">Making designing and marketting easy!</p>
+  <p class="p2">This Recommender Project is a Website Application that will allow designers to add their niche products for promotions.
+    It is meant to be used by designers as well as Product Hunters.This software allows designers to upload their products onto the platform with all relevant details.
+    The users will be able to comment on the products in the product catalogue. 
+    This is to increase the feedback which would be helpful for the designers to better their products.</p>
+</section>
+
+<footer class="f" id="footer1">
+<div class="container">
+ <h2>Contact Info</h2>
+ </div>
+ <address>
+ <p><b>Contact us at:</b> +91 9876543210</p>
+ <p><b>Ping us at:</b> <a href="mailto:youremail.co" class="a9">admin@wedesign.ac.in</a></p>
+ <p><b>You can also find us at:</b></p>
+ <a href="#" class="a4"><i class="fa fa-facebook-official"></i></a>
+ <a href="#"class="a4"><i class="fa fa-pinterest-p"></i></a>
+ <a href="#"class="a4"><i class="fa fa-twitter"></i></a>
+ <a href="#"class="a4"><i class="fa fa-flickr"></i></a>
+ <a href="#"class="a4"><i class="fa fa-linkedin"></i></a>
+ </address>
+ </div>
+ </div>
+ </div>
+  <p class="w3-medium">
+  <a href='https://www.freepik.com/photos/background' class="a9">Background photo created by pressfoto - www.freepik.com</a>
+  </p>
+</footer>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 5000);
+}
+</script>
+</body>
+</html>

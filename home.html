@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <center>
+<nav class="nav_bar">
+  <ul>
+  <li><img src="https://www.iconfinder.com/data/icons/modern-education-1/128/3-512.png" style="width:32px; height:32px";></li>
+  <li><a href="home.html" class="nav_item">Home</a><li>
+  <li><a href="#section1" class="nav_item">About</a><li>
+  <li><a href="login.php" class="nav_item">Login</a><li>
+  <li><a href="#footer1" class="nav_item">Contact</a><li>
+</ul>
+</nav>
+<section>
+  <img class="mySlides" src="images/img1.jpg"
+  style="width:100%">
+  <img class="mySlides" src="images/img2.jpg"
+  style="width:100%">
+  <img class="mySlides" src="images/img3.jpg"
+  style="width:100%">
+</section>
+<section class="s1" id="section1" style="max-width:600px">
+  <h1 class="h_1"><center>Course Management System</center></h1>
+    <p class="p1">Making learning easy!</p>
+  <p class="p2">Course Management System is a web-based platform with an aim to provide quick, immediate access to various courses.
+    It makes teaching and course management easier by providing a framework and set of tools for students as well as faculty.
+    Users can access avail the benefits of all the features once they login to the website.
+    The user interface is customer friendly and assists you at each and every step, providing 24/7 help.</p>
+</section>
+<h2>Features</h2>
+<section class="s2">
+  <article class="a1">
+    <p>Register Courses</p>
+    <img src="https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png" style="width:30%">
+    <p>View Grades</p>
+    <img src="images/grade.png" style="width:30%">
+  </article>
+  <article class="a1">
+    <p>Manage Courses</p>
+    <img src="https://image.flaticon.com/icons/png/512/60/60473.png" style="width:30%">
+    <p>Track Progress</p>
+    <img src="images/progress.png" style="width:30%">
+  </article>
+  <article class="a1">
+    <p>Continual Learning</p>
+    <img src="https://image.flaticon.com/icons/png/512/1870/1870196.png" style="width:30%">
+  <article class="a3">
+    <p>Course Recommendation</p>
+    <img src="images/cr.png" style="width:30%">
+  </article>
+</section>
+<footer class="f" id="footer1">
+<div class="container">
+ <h2>Contact Info</h2>
+ </div>
+ <address>
+ <p><b>Contact us at:</b> +91 9876543210</p>
+ <p><b>Ping us at:</b> <a href="mailto:youremail.co" class="a9">admin@coursemanagement.ac.in</a></p>
+ <p><b>You can also find us at:</b></p>
+ <a href="#" class="a4"><i class="fa fa-facebook-official"></i></a>
+ <a href="#"class="a4"><i class="fa fa-pinterest-p"></i></a>
+ <a href="#"class="a4"><i class="fa fa-twitter"></i></a>
+ <a href="#"class="a4"><i class="fa fa-flickr"></i></a>
+ <a href="#"class="a4"><i class="fa fa-linkedin"></i></a>
+ </address>
+ </div>
+ </div>
+ </div>
+  <p class="w3-medium">
+  <a href='https://www.freepik.com/photos/background' class="a9">Background photo created by pressfoto - www.freepik.com</a>
+  </p>
+</footer>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 5000);
+}
+</script>
+</body>
+</html>
